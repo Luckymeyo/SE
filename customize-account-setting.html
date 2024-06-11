@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="setting.css">
+    <title>Customize Account</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="path_to_logo_image.png" alt="VidLingua Logo" class="logo">
+            <nav>
+                <a href="Home.html">Home</a>
+                <a href="Course.html">Course</a>
+                <a href="Contact-us.html">Contact Us</a>
+                <a href="Premium.html" class="premium-btn">Premium</a>
+            </nav>
+        </header>
+        <div class="sidebar">
+            <div class="menu-section">
+                <h2>User Setting</h2>
+                <a href="customize-account-setting.html">Profile</a>
+                <a href="customize-account-privacy.html">Privacy</a>
+                <a href="customize-account-devices.html">Devices</a>
+                <a href="customize-account-friend-request.html">Friend Request</a>
+            </div>
+            <div class="menu-section">
+                <h2>Billing</h2>
+                <a href="Premium.html">Activate Premium</a>
+                <a href="Premium.html">Payment Method</a>
+                <a href="customize-account-history.html">Subscription</a>
+                <a href="customize-account-history.html">History</a>
+            </div>
+            <div class="menu-section">
+                <h2>Web Setting</h2>
+                <a href="#" class="feature-work">Appearance</a>
+                <a href="#" class="feature-work">Accessibility</a>
+                <a href="#" class="feature-work">Notification</a>
+                <a href="#" class="feature-work">Advanced</a>
+            </div>
+            <div class="social-media">
+                <a href="https://www.facebook.com"><img src="facebook_logo_path.png" alt="Facebook"></a>
+                <a href="https://www.twitter.com"><img src="twitter_logo_path.png" alt="Twitter"></a>
+                <a href="https://www.instagram.com"><img src="instagram_logo_path.png" alt="Instagram"></a>
+            </div>
+        </div>
+        <div class="content">
+            <h1>Customize Account</h1>
+            <form>
+                <label for="profile-picture">Profile Picture</label>
+                <input type="file" id="profile-picture" name="profile-picture">
+                
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username">
+                
+                <label for="phone-number">Phone Number</label>
+                <input type="tel" id="phone-number" name="phone-number">
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+                
+                <label for="address">Address</label>
+                <input type="text" id="address" name="address">
+                
+                <label for="country">Country</label>
+                <input type="text" id="country" name="country">
+                
+                <label for="birthdate">Birthdate</label>
+                <input type="date" id="birthdate" name="birthdate">
+                
+                <button type="button" id="save-btn">Save</button>
+            </form>
+            <div id="notification" class="notification"></div>
+        </div>
+    </div>
+    <script src="setting.js"></script>
+</body>
+</html>
