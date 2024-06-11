@@ -1,8 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
     const nextButton = document.getElementById('nextButton');
 
-    nextButton.addEventListener('click', function() {
-        window.location.href = 'Home.html';
+    nextButton.addEventListener('click', function(event) {
+        event.preventDefault();  // Prevent the default link behavior
+        window.location.href = 'Home.html';  // Redirect to Home.html
     });
 
     document.querySelector('.back-btn').addEventListener('click', function() {
