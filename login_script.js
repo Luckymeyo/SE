@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const password = document.getElementById('password').value;
 
         if (username && password) {
-            window.location.href = 'home.html';
+            window.location.href = 'Home.html';
         } else {
             alert('Please fill in both Username and Password');
         }
@@ -29,6 +29,6 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     guestButton.addEventListener('click', function() {
-        window.location.href = 'home.html';
+        window.location.href = 'Home.html';
     });
 });
