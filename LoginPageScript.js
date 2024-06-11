@@ -12,7 +12,7 @@ document.getElementById('loginBtn').addEventListener('click', function() {
             });
             if (user) {
                 alert('Login successful');
-                window.location.href = 'home.html';
+                window.location.href = 'Home.html';
             } else {
                 alert('Invalid username or password');
             }
@@ -35,5 +35,5 @@ document.getElementById('googleBtn').addEventListener('click', function() {
 });
 
 document.getElementById('guestBtn').addEventListener('click', function() {
-    window.location.href = 'home.html';
+    window.location.href = 'Home.html';
 });
