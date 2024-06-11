@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const nextButton = document.getElementById('nextButton');
 
     nextButton.addEventListener('click', function() {
-        window.location.href = 'home.html';
+        window.location.href = 'Home.html';
     });
 
     document.querySelector('.back-btn').addEventListener('click', function() {
@@ -10,6 +10,6 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     document.querySelector('.close-btn').addEventListener('click', function() {
-        window.location.href = 'home.html';
+        window.location.href = 'Home.html';
     });
 });
