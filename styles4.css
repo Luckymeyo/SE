@@ -41,12 +41,25 @@ main {
     margin-bottom: 20px;
 }
 
-.next-btn {
-    padding: 10px 20px;
-    font-size: 18px;
-    background-color: #7267CB;
+button {
     border: none;
-    border-radius: 5px;
-    color: #fff;
     cursor: pointer;
+    outline: none;
+}
+
+/* Next button specific styles */
+.next-btn {
+    background-color: #7d4cff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.next-btn:hover {
+    background-color: #5c38bf;
 }
