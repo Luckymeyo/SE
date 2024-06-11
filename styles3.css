@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a2e;
+    color: #fff;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: absolute;
+    top: 0;
+}
+
+.back-btn, .close-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.profile-selection h1 {
+    margin-bottom: 10px;
+}
+
+.profile-selection p {
+    margin-bottom: 30px;
+}
+
+.selection-container {
+    display: flex;
+    gap: 20px;
+}
+
+.profile-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+
+.profile-option img {
+    width: 100px;
+    height: 100px;
+}
+
+.profile-option.selected {
+    border-color: #7267CB;
+    background-color: #343A40;
+}
+
+.next-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #7267CB;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.next-btn:disabled {
+    background-color: #444;
+    cursor: not-allowed;
+}

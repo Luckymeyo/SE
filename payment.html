@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="Payment.css">
+</head>
+<body>
+    <div class="container">
+        <div class="back-button">
+            <a href="Premium.html">
+                <img src="back-arrow.png" alt="Back">
+            </a>
+        </div>
+        <div class="payment-method">
+            <h2>Payment method</h2>
+            <div id="card-info">
+                <!-- Card information will be inserted here -->
+            </div>
+            <a href="Addcredit.html" class="add-card">add new card</a>
+            <button id="erase-card">Erase Card Details</button> <!-- New button to erase card details -->
+        </div>
+        <div class="payment-total">
+            <h2>Total</h2>
+            <p id="total-price"></p>
+            <button id="pay-now">Pay Now</button>
+        </div>
+    </div>
+    <script src="Payment.js"></script>
+</body>
+</html>

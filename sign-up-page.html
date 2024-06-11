@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div class="signup-container">
+        <button class="back-button" id="backButton">&larr;</button>
+        <button class="close-button" id="closeButton">&times;</button>
+        <h2>Create your Profile</h2>
+        <form id="signupForm">
+            <div class="form-group">
+                <input type="text" id="age" placeholder="Age" required>
+            </div>
+            <div class="form-group">
+                <input type="text" id="username" placeholder="Username (Optional)" required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" placeholder="E-mail" required>
+            </div>
+            <div class="form-group">
+                <input type="password" id="password" placeholder="Password" required>
+                <span class="info">Password must be 8-10 characters long and include at least one number or symbol.</span>
+            </div>
+            <button type="submit" class="submit-button">Create Account</button>
+        </form>
+    </div>
+
+    <script src="script2.js"></script>
+</body>
+</html>

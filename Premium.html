@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium</title>
+    <link rel="stylesheet" href="Premium.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="VidLingua">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Course.html">Course</a></li>
+                <li><a href="Contact-us.html">Contact Us</a></li>
+                <li><a href="Premium.html" class="premium-button">Premium</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="pricing">
+            <h1>Choose Your Package!</h1>
+            <div class="package" id="free-package">
+                <h2>Free</h2>
+                <p class="price">Free /Month</p>
+                <ul>
+                    <li>1 Unlimited Bandwidth</li>
+                    <li>2 PDF Access Stored</li>
+                    <li>1 Support System</li>
+                    <li>Priority Support</li>
+                </ul>
+                <button onclick="redirectToPayment('free')">Subscribe</button>
+            </div>
+            <div class="package" id="professional-package">
+                <h2>Professional</h2>
+                <p class="price">10$ /Month</p>
+                <ul>
+                    <li>1 Unlimited Bandwidth</li>
+                    <li>Personalized Teacher</li>
+                    <li>1 Free course daily</li>
+                    <li>Priority Support</li>
+                </ul>
+                <button onclick="redirectToPayment('professional')">Subscribe</button>
+            </div>
+            <div class="package" id="basic-package">
+                <h2>Basic</h2>
+                <p class="price">3$ /Month</p>
+                <ul>
+                    <li>1 Unlimited Bandwidth</li>
+                    <li>2 PDF Access Stored</li>
+                    <li>1 Support System</li>
+                    <li>Priority Support</li>
+                </ul>
+                <button onclick="redirectToPayment('basic')">Subscribe</button>
+            </div>
+        </section>
+    </main>
+    <script src="Premium.js"></script>
+</body>
+</html>

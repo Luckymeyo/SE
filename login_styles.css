@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 70%;
+    height: 80%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-section {
+    flex: 2;
+    background-image: url('image.png'); /* Adjust the path if necessary */
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-section .bottom-text {
+    background-color: #1a1a2e;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.right-section {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #d9d9d9;
+}
+
+.right-section h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-btn {
+    background-color: #7267CB;
+    color: #fff;
+}
+
+.register-btn {
+    background-color: #7267CB;
+    color: #fff;
+}
+
+.social-login {
+    display: flex;
+    flex-direction: column;
+}
+
+.fb-btn {
+    margin-bottom: 10px;
+    background-color: #3b5998; /* Facebook blue color */
+    color: #fff;
+    border: none;
+}
+
+.google-btn {
+    margin-bottom: 10px;
+    background-color: #fff; /* White color for Google button */
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.guest-btn {
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #ccc;
+}
