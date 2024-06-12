@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Learning</title>
+    <link rel="stylesheet" href="Virtual.css">
+</head>
+<body>
+    <header>
+        <div class="logo">VidLingua</div>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Course.html">Course</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+                <li><a href="Premium.html">Premium</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="video-player">
+            <video id="videoDisplay" controls></video>
+            <div class="like-dislike">
+                <button id="likeButton">Like</button>
+                <button id="dislikeButton">Dislike</button>
+            </div>
+        </div>
+        <div class="comments-section">
+            <h2>Comments</h2>
+            <textarea id="commentInput" placeholder="Type here..."></textarea>
+            <button id="postComment">Comment</button>
+            <div id="commentsList"></div>
+        </div>
+    </main>
+    <script src="Virtual.js"></script>
+</body>
+</html>
