@@ -12,4 +12,13 @@
                     }
                 });
             });
+
+            // Add click event listeners for user profile and customize
+            document.getElementById('userProfile').addEventListener('click', () => {
+                window.location.href = 'customize-account-setting.html';
+            });
+
+            document.getElementById('customize').addEventListener('click', () => {
+                window.location.href = 'customize-account-setting.html';
+            });
         });
