@@ -14,5 +14,5 @@ document.getElementById('add-card-form').addEventListener('submit', function(eve
     };
 
     localStorage.setItem('cardDetails', JSON.stringify(cardDetails));
-    window.location.href = 'Payment.html';
+    window.location.href = 'payment.html';
 });
