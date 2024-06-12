@@ -12,14 +12,14 @@
         <nav>
             <ul>
                 <li><a href="Home.html">Home</a></li>
-                <li><a href="Course.html">Course</a></li> <!-- Updated here -->
-                <li><a href="Contact-us.html">Contact Us</a></li> <!-- Updated here -->
+                <li><a href="Course.html">Course</a></li>
+                <li><a href="Contact-us.html">Contact Us</a></li>
                 <li><a href="Premium.html">Premium</a></li>
             </ul>
         </nav>
         <div class="user-profile">
-            <img src="user.png" alt="User Profile">
-            <span>Customize</span>
+            <img src="user.png" alt="User Profile" id="userProfile">
+            <span id="customize">Customize</span>
         </div>
     </header>
 
@@ -119,6 +119,15 @@
                         answer.style.maxHeight = answer.scrollHeight + 'px';
                     }
                 });
+            });
+
+            // Add click event listeners for user profile and customize
+            document.getElementById('userProfile').addEventListener('click', () => {
+                window.location.href = 'customize-account-setting.html';
+            });
+
+            document.getElementById('customize').addEventListener('click', () => {
+                window.location.href = 'customize-account-setting.html';
             });
         });
     </script>
